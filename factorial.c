@@ -6,6 +6,6 @@ int main()
     for(i=1;i<=number;i++){    
       fact=fact*i;    
     } 
-  printf("Factorial is: %d\n",fact);
+  printf("Factorial of %d is: %d\n",number,fact);
   return 0;  
 }   
